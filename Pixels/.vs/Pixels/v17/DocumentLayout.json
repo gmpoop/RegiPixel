@@ -3,48 +3,64 @@
   "WorkspaceRootPath": "C:\\develop\\Pixels\\Pixels\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6B49A523-4C9C-440E-AA00-F3AAE0A98BB7}|Pixels\\Pixels.csproj|c:\\develop\\pixels\\pixels\\pixels\\image.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6B49A523-4C9C-440E-AA00-F3AAE0A98BB7}|Pixels\\Pixels.csproj|solutionrelative:pixels\\image.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6B49A523-4C9C-440E-AA00-F3AAE0A98BB7}|Pixels\\Pixels.csproj|C:\\develop\\Pixels\\Pixels\\pixels\\camera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6B49A523-4C9C-440E-AA00-F3AAE0A98BB7}|Pixels\\Pixels.csproj|solutionrelative:pixels\\camera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6B49A523-4C9C-440E-AA00-F3AAE0A98BB7}|Pixels\\Pixels.csproj|c:\\develop\\pixels\\pixels\\pixels\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6B49A523-4C9C-440E-AA00-F3AAE0A98BB7}|Pixels\\Pixels.csproj|solutionrelative:pixels\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6B49A523-4C9C-440E-AA00-F3AAE0A98BB7}|Pixels\\Pixels.csproj|c:\\develop\\pixels\\pixels\\pixels\\mainwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6B49A523-4C9C-440E-AA00-F3AAE0A98BB7}|Pixels\\Pixels.csproj|solutionrelative:pixels\\mainwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6B49A523-4C9C-440E-AA00-F3AAE0A98BB7}|Pixels\\Pixels.csproj|c:\\develop\\pixels\\pixels\\pixels\\camera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B49A523-4C9C-440E-AA00-F3AAE0A98BB7}|Pixels\\Pixels.csproj|solutionrelative:pixels\\camera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6B49A523-4C9C-440E-AA00-F3AAE0A98BB7}|Pixels\\Pixels.csproj|C:\\develop\\Pixels\\Pixels\\pixels\\mainwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{6B49A523-4C9C-440E-AA00-F3AAE0A98BB7}|Pixels\\Pixels.csproj|solutionrelative:pixels\\mainwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6B49A523-4C9C-440E-AA00-F3AAE0A98BB7}|Pixels\\Pixels.csproj|c:\\develop\\pixels\\pixels\\pixels\\image.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6B49A523-4C9C-440E-AA00-F3AAE0A98BB7}|Pixels\\Pixels.csproj|solutionrelative:pixels\\image.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6B49A523-4C9C-440E-AA00-F3AAE0A98BB7}|Pixels\\Pixels.csproj|c:\\develop\\pixels\\pixels\\pixels\\mainwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B49A523-4C9C-440E-AA00-F3AAE0A98BB7}|Pixels\\Pixels.csproj|solutionrelative:pixels\\mainwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6B49A523-4C9C-440E-AA00-F3AAE0A98BB7}|Pixels\\Pixels.csproj|c:\\develop\\pixels\\pixels\\pixels\\video.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6B49A523-4C9C-440E-AA00-F3AAE0A98BB7}|Pixels\\Pixels.csproj|solutionrelative:pixels\\video.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6B49A523-4C9C-440E-AA00-F3AAE0A98BB7}|Pixels\\Pixels.csproj|C:\\develop\\Pixels\\Pixels\\pixels\\documentation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{6B49A523-4C9C-440E-AA00-F3AAE0A98BB7}|Pixels\\Pixels.csproj|solutionrelative:pixels\\documentation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6B49A523-4C9C-440E-AA00-F3AAE0A98BB7}|Pixels\\Pixels.csproj|C:\\develop\\Pixels\\Pixels\\pixels\\camera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{6B49A523-4C9C-440E-AA00-F3AAE0A98BB7}|Pixels\\Pixels.csproj|solutionrelative:pixels\\camera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6B49A523-4C9C-440E-AA00-F3AAE0A98BB7}|Pixels\\Pixels.csproj|C:\\develop\\Pixels\\Pixels\\pixels\\video.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{6B49A523-4C9C-440E-AA00-F3AAE0A98BB7}|Pixels\\Pixels.csproj|solutionrelative:pixels\\video.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{6B49A523-4C9C-440E-AA00-F3AAE0A98BB7}|Pixels\\Pixels.csproj|c:\\develop\\pixels\\pixels\\pixels\\image.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B49A523-4C9C-440E-AA00-F3AAE0A98BB7}|Pixels\\Pixels.csproj|solutionrelative:pixels\\image.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6B49A523-4C9C-440E-AA00-F3AAE0A98BB7}|Pixels\\Pixels.csproj|C:\\develop\\Pixels\\Pixels\\pixels\\image.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{6B49A523-4C9C-440E-AA00-F3AAE0A98BB7}|Pixels\\Pixels.csproj|solutionrelative:pixels\\image.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{6B49A523-4C9C-440E-AA00-F3AAE0A98BB7}|Pixels\\Pixels.csproj|c:\\develop\\pixels\\pixels\\pixels\\video.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B49A523-4C9C-440E-AA00-F3AAE0A98BB7}|Pixels\\Pixels.csproj|solutionrelative:pixels\\video.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B49A523-4C9C-440E-AA00-F3AAE0A98BB7}|Pixels\\Pixels.csproj|c:\\develop\\pixels\\pixels\\pixels\\documentation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B49A523-4C9C-440E-AA00-F3AAE0A98BB7}|Pixels\\Pixels.csproj|solutionrelative:pixels\\documentation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B49A523-4C9C-440E-AA00-F3AAE0A98BB7}|Pixels\\Pixels.csproj|C:\\develop\\Pixels\\Pixels\\pixels\\video.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6B49A523-4C9C-440E-AA00-F3AAE0A98BB7}|Pixels\\Pixels.csproj|solutionrelative:pixels\\video.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B49A523-4C9C-440E-AA00-F3AAE0A98BB7}|Pixels\\Pixels.csproj|C:\\develop\\Pixels\\Pixels\\pixels\\documentation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6B49A523-4C9C-440E-AA00-F3AAE0A98BB7}|Pixels\\Pixels.csproj|solutionrelative:pixels\\documentation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6B49A523-4C9C-440E-AA00-F3AAE0A98BB7}|Pixels\\Pixels.csproj|c:\\develop\\pixels\\pixels\\pixels\\video.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6B49A523-4C9C-440E-AA00-F3AAE0A98BB7}|Pixels\\Pixels.csproj|solutionrelative:pixels\\video.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B49A523-4C9C-440E-AA00-F3AAE0A98BB7}|Pixels\\Pixels.csproj|c:\\develop\\pixels\\pixels\\pixels\\camera.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B49A523-4C9C-440E-AA00-F3AAE0A98BB7}|Pixels\\Pixels.csproj|solutionrelative:pixels\\camera.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B49A523-4C9C-440E-AA00-F3AAE0A98BB7}|Pixels\\Pixels.csproj|c:\\develop\\pixels\\pixels\\pixels\\documentation.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B49A523-4C9C-440E-AA00-F3AAE0A98BB7}|Pixels\\Pixels.csproj|solutionrelative:pixels\\documentation.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B49A523-4C9C-440E-AA00-F3AAE0A98BB7}|Pixels\\Pixels.csproj|c:\\develop\\pixels\\pixels\\pixels\\image.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B49A523-4C9C-440E-AA00-F3AAE0A98BB7}|Pixels\\Pixels.csproj|solutionrelative:pixels\\image.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B49A523-4C9C-440E-AA00-F3AAE0A98BB7}|Pixels\\Pixels.csproj|c:\\develop\\pixels\\pixels\\pixels\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B49A523-4C9C-440E-AA00-F3AAE0A98BB7}|Pixels\\Pixels.csproj|solutionrelative:pixels\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6B49A523-4C9C-440E-AA00-F3AAE0A98BB7}|Pixels\\Pixels.csproj|c:\\develop\\pixels\\pixels\\pixels\\mainwindow.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -64,7 +80,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -76,72 +102,145 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MainWindow.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\develop\\Pixels\\Pixels\\Pixels\\MainWindow.cs",
-              "RelativeDocumentMoniker": "Pixels\\MainWindow.cs",
-              "ToolTip": "C:\\Users\\drobi\\source\\repos 2022\\Pixels\\Pixels\\MainWindow.cs [Dise\u00F1o]",
-              "RelativeToolTip": "..\\..\\..\\Users\\drobi\\source\\repos 2022\\Pixels\\Pixels\\MainWindow.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-28T17:15:20.253Z"
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "Image.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\develop\\Pixels\\Pixels\\Pixels\\Image.cs",
+              "RelativeDocumentMoniker": "Pixels\\Image.cs",
+              "ToolTip": "C:\\develop\\Pixels\\Pixels\\Pixels\\Image.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Pixels\\Image.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T20:07:57.591Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\develop\\Pixels\\Pixels\\Pixels\\MainWindow.cs",
+              "RelativeDocumentMoniker": "Pixels\\MainWindow.cs",
+              "ToolTip": "C:\\develop\\Pixels\\Pixels\\Pixels\\MainWindow.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Pixels\\MainWindow.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T17:15:20.253Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.cs",
+              "DocumentMoniker": "C:\\develop\\Pixels\\Pixels\\Pixels\\MainWindow.cs",
+              "RelativeDocumentMoniker": "Pixels\\MainWindow.cs",
+              "ToolTip": "C:\\develop\\Pixels\\Pixels\\Pixels\\MainWindow.cs",
+              "RelativeToolTip": "Pixels\\MainWindow.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAiwCcAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T16:20:07.659Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Video.cs",
               "DocumentMoniker": "C:\\develop\\Pixels\\Pixels\\Pixels\\Video.cs",
               "RelativeDocumentMoniker": "Pixels\\Video.cs",
               "ToolTip": "C:\\develop\\Pixels\\Pixels\\Pixels\\Video.cs",
               "RelativeToolTip": "Pixels\\Video.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAABQAAAAAAAAAAADwvyUAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-28T20:51:57.079Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 8,
+              "Title": "Video.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\develop\\Pixels\\Pixels\\Pixels\\Video.cs",
+              "RelativeDocumentMoniker": "Pixels\\Video.cs",
+              "ToolTip": "C:\\develop\\Pixels\\Pixels\\Pixels\\Video.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Pixels\\Video.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T20:51:51.348Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Image.cs",
               "DocumentMoniker": "C:\\develop\\Pixels\\Pixels\\Pixels\\Image.cs",
               "RelativeDocumentMoniker": "Pixels\\Image.cs",
               "ToolTip": "C:\\develop\\Pixels\\Pixels\\Pixels\\Image.cs",
               "RelativeToolTip": "Pixels\\Image.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAA0wCYAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-28T20:22:01.786Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\develop\\Pixels\\Pixels\\Pixels\\Program.cs",
-              "RelativeDocumentMoniker": "Pixels\\Program.cs",
-              "ToolTip": "C:\\develop\\Pixels\\Pixels\\Pixels\\Program.cs",
-              "RelativeToolTip": "Pixels\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAwAAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "Documentation.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\develop\\Pixels\\Pixels\\Pixels\\Documentation.cs",
+              "RelativeDocumentMoniker": "Pixels\\Documentation.cs",
+              "ToolTip": "C:\\develop\\Pixels\\Pixels\\Pixels\\Documentation.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Pixels\\Documentation.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-28T20:40:56.346Z"
+              "WhenOpened": "2025-02-28T20:53:50.415Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Image.Designer.cs",
-              "DocumentMoniker": "C:\\develop\\Pixels\\Pixels\\Pixels\\Image.Designer.cs",
-              "RelativeDocumentMoniker": "Pixels\\Image.Designer.cs",
-              "ToolTip": "C:\\develop\\Pixels\\Pixels\\Pixels\\Image.Designer.cs",
-              "RelativeToolTip": "Pixels\\Image.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAVAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "Documentation.cs",
+              "DocumentMoniker": "C:\\develop\\Pixels\\Pixels\\Pixels\\Documentation.cs",
+              "RelativeDocumentMoniker": "Pixels\\Documentation.cs",
+              "ToolTip": "C:\\develop\\Pixels\\Pixels\\Pixels\\Documentation.cs",
+              "RelativeToolTip": "Pixels\\Documentation.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAADwvycAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-28T20:04:49.58Z"
+              "WhenOpened": "2025-03-21T17:23:40.128Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Camera.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\develop\\Pixels\\Pixels\\Pixels\\Camera.cs",
+              "RelativeDocumentMoniker": "Pixels\\Camera.cs",
+              "ToolTip": "C:\\develop\\Pixels\\Pixels\\Pixels\\Camera.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Pixels\\Camera.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T20:34:12.611Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Camera.cs",
+              "DocumentMoniker": "C:\\develop\\Pixels\\Pixels\\Pixels\\Camera.cs",
+              "RelativeDocumentMoniker": "Pixels\\Camera.cs",
+              "ToolTip": "C:\\develop\\Pixels\\Pixels\\Pixels\\Camera.cs",
+              "RelativeToolTip": "Pixels\\Camera.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD8AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T17:29:04.81Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Camera.Designer.cs",
+              "DocumentMoniker": "C:\\develop\\Pixels\\Pixels\\Pixels\\Camera.Designer.cs",
+              "RelativeDocumentMoniker": "Pixels\\Camera.Designer.cs",
+              "ToolTip": "C:\\develop\\Pixels\\Pixels\\Pixels\\Camera.Designer.cs",
+              "RelativeToolTip": "Pixels\\Camera.Designer.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAYwBMAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T19:28:49.253Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -151,37 +250,66 @@
               "RelativeDocumentMoniker": "Pixels\\Video.Designer.cs",
               "ToolTip": "C:\\develop\\Pixels\\Pixels\\Pixels\\Video.Designer.cs",
               "RelativeToolTip": "Pixels\\Video.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAYwEMAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-28T20:04:48.665Z"
+              "WhenOpened": "2025-02-28T20:04:48.665Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MainWindow.cs",
-              "DocumentMoniker": "C:\\develop\\Pixels\\Pixels\\Pixels\\MainWindow.cs",
-              "RelativeDocumentMoniker": "Pixels\\MainWindow.cs",
-              "ToolTip": "C:\\develop\\Pixels\\Pixels\\Pixels\\MainWindow.cs",
-              "RelativeToolTip": "Pixels\\MainWindow.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAZAAAAAAAAAA==",
+              "DocumentIndex": 13,
+              "Title": "Image.Designer.cs",
+              "DocumentMoniker": "C:\\develop\\Pixels\\Pixels\\Pixels\\Image.Designer.cs",
+              "RelativeDocumentMoniker": "Pixels\\Image.Designer.cs",
+              "ToolTip": "C:\\develop\\Pixels\\Pixels\\Pixels\\Image.Designer.cs",
+              "RelativeToolTip": "Pixels\\Image.Designer.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAYwFkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-28T16:20:07.659Z"
+              "WhenOpened": "2025-02-28T20:04:49.58Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
+              "Title": "Documentation.Designer.cs",
+              "DocumentMoniker": "C:\\develop\\Pixels\\Pixels\\Pixels\\Documentation.Designer.cs",
+              "RelativeDocumentMoniker": "Pixels\\Documentation.Designer.cs",
+              "ToolTip": "C:\\develop\\Pixels\\Pixels\\Pixels\\Documentation.Designer.cs",
+              "RelativeToolTip": "Pixels\\Documentation.Designer.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAYwEsAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T19:58:29.22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\develop\\Pixels\\Pixels\\Pixels\\Program.cs",
+              "RelativeDocumentMoniker": "Pixels\\Program.cs",
+              "ToolTip": "C:\\develop\\Pixels\\Pixels\\Pixels\\Program.cs",
+              "RelativeToolTip": "Pixels\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T20:40:56.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "MainWindow.Designer.cs",
               "DocumentMoniker": "C:\\develop\\Pixels\\Pixels\\Pixels\\MainWindow.Designer.cs",
               "RelativeDocumentMoniker": "Pixels\\MainWindow.Designer.cs",
               "ToolTip": "C:\\develop\\Pixels\\Pixels\\Pixels\\MainWindow.Designer.cs",
               "RelativeToolTip": "Pixels\\MainWindow.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAB8AAAAAAAAAAAD4vzMAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-28T17:15:03.316Z"
+              "WhenOpened": "2025-02-28T17:15:03.316Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 16,
               "Title": "Form1.Designer.cs",
               "DocumentMoniker": "C:\\Users\\drobi\\source\\repos 2022\\Pixels\\Pixels\\Form1.Designer.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\Users\\drobi\\source\\repos 2022\\Pixels\\Pixels\\Form1.Designer.cs",
@@ -192,51 +320,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Documentation.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\develop\\Pixels\\Pixels\\Pixels\\Documentation.cs",
-              "RelativeDocumentMoniker": "Pixels\\Documentation.cs",
-              "ToolTip": "C:\\Users\\drobi\\source\\repos 2022\\Pixels\\Pixels\\Documentation.cs [Dise\u00F1o]",
-              "RelativeToolTip": "..\\..\\..\\Users\\drobi\\source\\repos 2022\\Pixels\\Pixels\\Documentation.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-28T20:53:50.415Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Video.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\develop\\Pixels\\Pixels\\Pixels\\Video.cs",
-              "RelativeDocumentMoniker": "Pixels\\Video.cs",
-              "ToolTip": "C:\\Users\\drobi\\source\\repos 2022\\Pixels\\Pixels\\Video.cs [Dise\u00F1o]",
-              "RelativeToolTip": "..\\..\\..\\Users\\drobi\\source\\repos 2022\\Pixels\\Pixels\\Video.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-28T20:51:51.348Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Camera.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\develop\\Pixels\\Pixels\\Pixels\\Camera.cs",
-              "RelativeDocumentMoniker": "Pixels\\Camera.cs",
-              "ToolTip": "C:\\Users\\drobi\\source\\repos 2022\\Pixels\\Pixels\\Camera.cs [Dise\u00F1o]",
-              "RelativeToolTip": "..\\..\\..\\Users\\drobi\\source\\repos 2022\\Pixels\\Pixels\\Camera.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-28T20:34:12.611Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Image.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\develop\\Pixels\\Pixels\\Pixels\\Image.cs",
-              "RelativeDocumentMoniker": "Pixels\\Image.cs",
-              "ToolTip": "C:\\Users\\drobi\\source\\repos 2022\\Pixels\\Pixels\\Image.cs [Dise\u00F1o]",
-              "RelativeToolTip": "..\\..\\..\\Users\\drobi\\source\\repos 2022\\Pixels\\Pixels\\Image.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-28T20:07:57.591Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 17,
               "Title": "Form1.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\drobi\\source\\repos 2022\\Pixels\\Pixels\\Form1.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\Users\\drobi\\source\\repos 2022\\Pixels\\Pixels\\Form1.cs",

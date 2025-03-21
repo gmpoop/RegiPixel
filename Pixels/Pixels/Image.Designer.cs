@@ -56,51 +56,62 @@
             // 
             lbl_Video.Cursor = Cursors.Hand;
             lbl_Video.Font = new Font("Segoe UI", 22.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            lbl_Video.Location = new Point(492, 724);
+            lbl_Video.Location = new Point(642, 905);
+            lbl_Video.Margin = new Padding(4, 0, 4, 0);
             lbl_Video.Name = "lbl_Video";
-            lbl_Video.Size = new Size(126, 53);
+            lbl_Video.Size = new Size(158, 66);
             lbl_Video.TabIndex = 12;
             lbl_Video.Text = "Video";
+            lbl_Video.Click += lbl_Video_Click;
             // 
             // lbl_Image
             // 
             lbl_Image.Cursor = Cursors.Hand;
             lbl_Image.Font = new Font("Segoe UI", 22.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            lbl_Image.Location = new Point(351, 724);
+            lbl_Image.ForeColor = SystemColors.ButtonFace;
+            lbl_Image.Location = new Point(439, 905);
+            lbl_Image.Margin = new Padding(4, 0, 4, 0);
             lbl_Image.Name = "lbl_Image";
-            lbl_Image.Size = new Size(153, 53);
+            lbl_Image.Size = new Size(170, 66);
             lbl_Image.TabIndex = 11;
             lbl_Image.Text = "Image";
+            lbl_Image.Click += lbl_Image_Click;
             // 
             // lbl_documentation
             // 
             lbl_documentation.Cursor = Cursors.Hand;
             lbl_documentation.Font = new Font("Segoe UI", 22.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            lbl_documentation.Location = new Point(614, 724);
+            lbl_documentation.Location = new Point(795, 905);
+            lbl_documentation.Margin = new Padding(4, 0, 4, 0);
             lbl_documentation.Name = "lbl_documentation";
-            lbl_documentation.Size = new Size(286, 61);
+            lbl_documentation.Size = new Size(358, 76);
             lbl_documentation.TabIndex = 10;
             lbl_documentation.Text = "Documentation";
+            lbl_documentation.Click += lbl_documentation_Click;
             // 
             // lbl_Camera
             // 
             lbl_Camera.Cursor = Cursors.Hand;
             lbl_Camera.Font = new Font("Segoe UI", 22.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            lbl_Camera.Location = new Point(192, 724);
+            lbl_Camera.Location = new Point(240, 905);
+            lbl_Camera.Margin = new Padding(4, 0, 4, 0);
             lbl_Camera.Name = "lbl_Camera";
-            lbl_Camera.Size = new Size(153, 53);
+            lbl_Camera.Size = new Size(191, 66);
             lbl_Camera.TabIndex = 9;
             lbl_Camera.Text = "Camera";
+            lbl_Camera.Click += lbl_Camera_Click;
             // 
             // lbl_Home
             // 
             lbl_Home.Cursor = Cursors.Hand;
             lbl_Home.Font = new Font("Segoe UI", 22.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            lbl_Home.Location = new Point(52, 724);
+            lbl_Home.Location = new Point(65, 905);
+            lbl_Home.Margin = new Padding(4, 0, 4, 0);
             lbl_Home.Name = "lbl_Home";
-            lbl_Home.Size = new Size(153, 53);
+            lbl_Home.Size = new Size(191, 66);
             lbl_Home.TabIndex = 8;
             lbl_Home.Text = "Home";
+            lbl_Home.Click += Home_Click;
             // 
             // pnl_Documentation
             // 
@@ -117,93 +128,103 @@
             pnl_Documentation.Controls.Add(label4);
             pnl_Documentation.Controls.Add(label3);
             pnl_Documentation.Controls.Add(label1);
-            pnl_Documentation.Location = new Point(35, 22);
+            pnl_Documentation.Location = new Point(44, 28);
+            pnl_Documentation.Margin = new Padding(4);
             pnl_Documentation.Name = "pnl_Documentation";
-            pnl_Documentation.Size = new Size(1180, 664);
+            pnl_Documentation.Size = new Size(1475, 830);
             pnl_Documentation.TabIndex = 7;
             // 
             // button1
             // 
             button1.BackColor = SystemColors.ActiveBorder;
             button1.FlatStyle = FlatStyle.Flat;
-            button1.Location = new Point(421, 387);
-            button1.Margin = new Padding(3, 3, 5, 5);
+            button1.Location = new Point(526, 484);
+            button1.Margin = new Padding(4, 4, 6, 6);
             button1.Name = "button1";
-            button1.Size = new Size(94, 29);
+            button1.Size = new Size(118, 36);
             button1.TabIndex = 10;
             button1.Text = "Upload";
             button1.UseVisualStyleBackColor = false;
             // 
             // panel5
             // 
-            panel5.Location = new Point(891, 452);
+            panel5.Location = new Point(1114, 565);
+            panel5.Margin = new Padding(4);
             panel5.Name = "panel5";
-            panel5.Size = new Size(273, 192);
+            panel5.Size = new Size(341, 240);
             panel5.TabIndex = 9;
             // 
             // panel4
             // 
-            panel4.Location = new Point(601, 452);
+            panel4.Location = new Point(751, 565);
+            panel4.Margin = new Padding(4);
             panel4.Name = "panel4";
-            panel4.Size = new Size(273, 192);
+            panel4.Size = new Size(341, 240);
             panel4.TabIndex = 8;
             // 
             // panel3
             // 
-            panel3.Location = new Point(310, 452);
+            panel3.Location = new Point(388, 565);
+            panel3.Margin = new Padding(4);
             panel3.Name = "panel3";
-            panel3.Size = new Size(273, 192);
+            panel3.Size = new Size(341, 240);
             panel3.TabIndex = 7;
             // 
             // label2
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI", 16F);
-            label2.Location = new Point(540, 22);
+            label2.Location = new Point(675, 28);
+            label2.Margin = new Padding(4, 0, 4, 0);
             label2.Name = "label2";
-            label2.Size = new Size(101, 37);
+            label2.Size = new Size(121, 45);
             label2.TabIndex = 8;
             label2.Text = "History";
             // 
             // ltv_history
             // 
             ltv_history.BackColor = SystemColors.ActiveCaption;
-            ltv_history.Location = new Point(540, 62);
+            ltv_history.Location = new Point(675, 78);
+            ltv_history.Margin = new Padding(4);
             ltv_history.Name = "ltv_history";
-            ltv_history.Size = new Size(224, 319);
+            ltv_history.Size = new Size(279, 398);
             ltv_history.TabIndex = 7;
             ltv_history.UseCompatibleStateImageBehavior = false;
             // 
             // panel2
             // 
-            panel2.Location = new Point(17, 452);
+            panel2.Location = new Point(21, 565);
+            panel2.Margin = new Padding(4);
             panel2.Name = "panel2";
-            panel2.Size = new Size(273, 192);
+            panel2.Size = new Size(341, 240);
             panel2.TabIndex = 6;
             panel2.Paint += panel2_Paint;
             // 
             // panel1
             // 
             panel1.Controls.Add(ltv_filters);
-            panel1.Location = new Point(829, 62);
+            panel1.Location = new Point(1036, 78);
+            panel1.Margin = new Padding(4);
             panel1.Name = "panel1";
-            panel1.Size = new Size(335, 319);
+            panel1.Size = new Size(419, 399);
             panel1.TabIndex = 5;
             // 
             // ltv_filters
             // 
             ltv_filters.BackColor = SystemColors.ActiveCaption;
-            ltv_filters.Location = new Point(13, 17);
+            ltv_filters.Location = new Point(16, 21);
+            ltv_filters.Margin = new Padding(4);
             ltv_filters.Name = "ltv_filters";
-            ltv_filters.Size = new Size(307, 286);
+            ltv_filters.Size = new Size(383, 356);
             ltv_filters.TabIndex = 8;
             ltv_filters.UseCompatibleStateImageBehavior = false;
             // 
             // pictureBox1
             // 
-            pictureBox1.Location = new Point(17, 62);
+            pictureBox1.Location = new Point(21, 78);
+            pictureBox1.Margin = new Padding(4);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(498, 319);
+            pictureBox1.Size = new Size(622, 399);
             pictureBox1.TabIndex = 4;
             pictureBox1.TabStop = false;
             pictureBox1.Click += pictureBox1_Click;
@@ -212,9 +233,10 @@
             // 
             label4.AutoSize = true;
             label4.Font = new Font("Segoe UI", 16F);
-            label4.Location = new Point(17, 399);
+            label4.Location = new Point(21, 499);
+            label4.Margin = new Padding(4, 0, 4, 0);
             label4.Name = "label4";
-            label4.Size = new Size(141, 37);
+            label4.Size = new Size(169, 45);
             label4.TabIndex = 3;
             label4.Text = "Histogram";
             // 
@@ -222,9 +244,10 @@
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Segoe UI", 16F);
-            label3.Location = new Point(829, 22);
+            label3.Location = new Point(1036, 28);
+            label3.Margin = new Padding(4, 0, 4, 0);
             label3.Name = "label3";
-            label3.Size = new Size(87, 37);
+            label3.Size = new Size(105, 45);
             label3.TabIndex = 2;
             label3.Text = "Filters";
             // 
@@ -232,26 +255,29 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 16F);
-            label1.Location = new Point(17, 22);
+            label1.Location = new Point(21, 28);
+            label1.Margin = new Padding(4, 0, 4, 0);
             label1.Name = "label1";
-            label1.Size = new Size(98, 37);
+            label1.Size = new Size(118, 45);
             label1.TabIndex = 0;
             label1.Text = "Image ";
             // 
             // Image
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ActiveCaption;
-            ClientSize = new Size(1251, 806);
+            ClientSize = new Size(1564, 1008);
             Controls.Add(lbl_Video);
             Controls.Add(lbl_Image);
             Controls.Add(lbl_documentation);
             Controls.Add(lbl_Camera);
             Controls.Add(lbl_Home);
             Controls.Add(pnl_Documentation);
+            Margin = new Padding(4);
             Name = "Image";
             Text = "Image";
+            Load += Image_Load;
             pnl_Documentation.ResumeLayout(false);
             pnl_Documentation.PerformLayout();
             panel1.ResumeLayout(false);

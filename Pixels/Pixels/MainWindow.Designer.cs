@@ -43,9 +43,10 @@
             // 
             lbl_Home.Cursor = Cursors.Hand;
             lbl_Home.Font = new Font("Segoe UI", 22.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lbl_Home.ForeColor = SystemColors.ButtonFace;
             lbl_Home.Location = new Point(29, 714);
             lbl_Home.Name = "lbl_Home";
-            lbl_Home.Size = new Size(153, 53);
+            lbl_Home.Size = new Size(153, 61);
             lbl_Home.TabIndex = 2;
             lbl_Home.Text = "Home";
             lbl_Home.Click += Home_Click;
@@ -54,19 +55,20 @@
             // 
             lbl_Camera.Cursor = Cursors.Hand;
             lbl_Camera.Font = new Font("Segoe UI", 22.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            lbl_Camera.Location = new Point(169, 714);
+            lbl_Camera.Location = new Point(196, 715);
             lbl_Camera.Name = "lbl_Camera";
-            lbl_Camera.Size = new Size(153, 53);
+            lbl_Camera.Size = new Size(181, 53);
             lbl_Camera.TabIndex = 3;
             lbl_Camera.Text = "Camera";
+            lbl_Camera.Click += lbl_Camera_Click;
             // 
             // lbl_documentation
             // 
             lbl_documentation.Cursor = Cursors.Hand;
             lbl_documentation.Font = new Font("Segoe UI", 22.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            lbl_documentation.Location = new Point(591, 714);
+            lbl_documentation.Location = new Point(708, 715);
             lbl_documentation.Name = "lbl_documentation";
-            lbl_documentation.Size = new Size(286, 61);
+            lbl_documentation.Size = new Size(336, 61);
             lbl_documentation.TabIndex = 4;
             lbl_documentation.Text = "Documentation";
             lbl_documentation.Click += lbl_documentation_Click;
@@ -75,19 +77,20 @@
             // 
             lbl_Image.Cursor = Cursors.Hand;
             lbl_Image.Font = new Font("Segoe UI", 22.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            lbl_Image.Location = new Point(328, 714);
+            lbl_Image.Location = new Point(383, 715);
             lbl_Image.Name = "lbl_Image";
-            lbl_Image.Size = new Size(153, 53);
+            lbl_Image.Size = new Size(153, 61);
             lbl_Image.TabIndex = 5;
             lbl_Image.Text = "Image";
+            lbl_Image.Click += lbl_Image_Click;
             // 
             // lbl_Video
             // 
             lbl_Video.Cursor = Cursors.Hand;
             lbl_Video.Font = new Font("Segoe UI", 22.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            lbl_Video.Location = new Point(469, 714);
+            lbl_Video.Location = new Point(542, 715);
             lbl_Video.Name = "lbl_Video";
-            lbl_Video.Size = new Size(126, 53);
+            lbl_Video.Size = new Size(160, 53);
             lbl_Video.TabIndex = 6;
             lbl_Video.Text = "Video";
             lbl_Video.Click += lbl_Video_Click;
@@ -108,7 +111,7 @@
             label1.Font = new Font("Segoe UI", 16F);
             label1.Location = new Point(26, 23);
             label1.Name = "label1";
-            label1.Size = new Size(89, 37);
+            label1.Size = new Size(107, 45);
             label1.TabIndex = 1;
             label1.Text = "Home";
             // 

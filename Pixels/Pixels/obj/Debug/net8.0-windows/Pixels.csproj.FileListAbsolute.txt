@@ -20,3 +20,31 @@ C:\Users\drobi\source\repos 2022\Pixels\Pixels\obj\Debug\net8.0-windows\Pixels.C
 C:\Users\drobi\source\repos 2022\Pixels\Pixels\obj\Debug\net8.0-windows\Pixels.Documentation.resources
 C:\Users\drobi\source\repos 2022\Pixels\Pixels\obj\Debug\net8.0-windows\Pixels.Image.resources
 C:\Users\drobi\source\repos 2022\Pixels\Pixels\obj\Debug\net8.0-windows\Pixels.Video.resources
+C:\develop\Pixels\Pixels\Pixels\bin\Debug\net8.0-windows\Pixels.exe
+C:\develop\Pixels\Pixels\Pixels\bin\Debug\net8.0-windows\Pixels.deps.json
+C:\develop\Pixels\Pixels\Pixels\bin\Debug\net8.0-windows\Pixels.runtimeconfig.json
+C:\develop\Pixels\Pixels\Pixels\bin\Debug\net8.0-windows\Pixels.dll
+C:\develop\Pixels\Pixels\Pixels\bin\Debug\net8.0-windows\Pixels.pdb
+C:\develop\Pixels\Pixels\Pixels\obj\Debug\net8.0-windows\Pixels..resources
+C:\develop\Pixels\Pixels\Pixels\obj\Debug\net8.0-windows\Pixels.Camera.resources
+C:\develop\Pixels\Pixels\Pixels\obj\Debug\net8.0-windows\Pixels.Documentation.resources
+C:\develop\Pixels\Pixels\Pixels\obj\Debug\net8.0-windows\Pixels.Image.resources
+C:\develop\Pixels\Pixels\Pixels\obj\Debug\net8.0-windows\Pixels.WNDW.resources
+C:\develop\Pixels\Pixels\Pixels\obj\Debug\net8.0-windows\Pixels.Properties.Resources.resources
+C:\develop\Pixels\Pixels\Pixels\obj\Debug\net8.0-windows\Pixels.Video.resources
+C:\develop\Pixels\Pixels\Pixels\obj\Debug\net8.0-windows\Pixels.csproj.GenerateResource.cache
+C:\develop\Pixels\Pixels\Pixels\obj\Debug\net8.0-windows\Pixels.GeneratedMSBuildEditorConfig.editorconfig
+C:\develop\Pixels\Pixels\Pixels\obj\Debug\net8.0-windows\Pixels.AssemblyInfoInputs.cache
+C:\develop\Pixels\Pixels\Pixels\obj\Debug\net8.0-windows\Pixels.AssemblyInfo.cs
+C:\develop\Pixels\Pixels\Pixels\obj\Debug\net8.0-windows\Pixels.csproj.CoreCompileInputs.cache
+C:\develop\Pixels\Pixels\Pixels\obj\Debug\net8.0-windows\Pixels.sourcelink.json
+C:\develop\Pixels\Pixels\Pixels\obj\Debug\net8.0-windows\Pixels.dll
+C:\develop\Pixels\Pixels\Pixels\obj\Debug\net8.0-windows\refint\Pixels.dll
+C:\develop\Pixels\Pixels\Pixels\obj\Debug\net8.0-windows\Pixels.pdb
+C:\develop\Pixels\Pixels\Pixels\obj\Debug\net8.0-windows\Pixels.genruntimeconfig.cache
+C:\develop\Pixels\Pixels\Pixels\obj\Debug\net8.0-windows\ref\Pixels.dll
+C:\develop\Pixels\Pixels\Pixels\bin\Debug\net8.0-windows\Emgu.CV.Bitmap.dll
+C:\develop\Pixels\Pixels\Pixels\obj\Debug\net8.0-windows\Pixels.csproj.AssemblyReference.cache
+C:\develop\Pixels\Pixels\Pixels\obj\Debug\net8.0-windows\Pixels.csproj.Up2Date
+C:\develop\Pixels\Pixels\Pixels\bin\Debug\net8.0-windows\Emgu.CV.Platform.NetStandard.dll
+C:\develop\Pixels\Pixels\Pixels\bin\Debug\net8.0-windows\Emgu.CV.Platform.NetCore.dll
