@@ -1,0 +1,63 @@
+# Visual Studio .gitignore
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Logs and database files
+*.log
+*.tlog
+
+# Build results
+bin/
+obj/
+[Bb]uild/
+[Dd]ebug/
+[Rr]elease/
+[Aa]ssets/
+.lldbinit
+
+# Visual Studio cache and settings
+.vs/
+.ipch/
+.vscode/
+
+# Dependency directories
+packages/
+npm-debug.log
+yarn-error.log
+node_modules/
+
+# Resharper files
+_ReSharper*/
+*.DotSettings.user
+
+# Rider files
+.idea/
+*.iml
+
+# JetBrains Rider project files
+/.idea/
+
+# SQL Server
+*.mdf
+*.ldf
+
+# Azure deployment
+.publishsettings
+
+# Other extensions
+*.sln.cache
+*.ncb
+*.opendb
+*.pdb
+
+# Miscellaneous
+*.bak
+*.swp
+*.pidb
+*.pidb*
+Thumbs.db
