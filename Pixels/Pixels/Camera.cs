@@ -11,7 +11,6 @@ using Emgu.CV.Structure;
 using Emgu.CV.UI;
 using OpenCvSharp;
 using OpenCvSharp.Extensions;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement; 
 
 namespace Pixels
 {
@@ -103,7 +102,7 @@ namespace Pixels
 
             if (route == "image")
             {
-                Image imageform = new Image();
+                ImageFilter imageform = new ImageFilter();
                 this.Hide();
                 imageform.Show();
             }
@@ -166,7 +165,7 @@ namespace Pixels
 
                     if (isCapturing)
                     {
-                        //GetColor();
+                        GetColor();
                     }
                 }
             }
@@ -219,28 +218,28 @@ namespace Pixels
 
             Color colorDisplay = LABtoRGB((int)(L * 2.55), a + 128, b + 128);
             ColorDisplay.BackColor = colorDisplay;
-            //PlotCIELABColor(a, b);
+            PlotCIELABColor(a, b);
 
             HexadecimalTextBox.Text = $"#{colorDisplay.R:X2}{colorDisplay.G:X2}{colorDisplay.B:X2}";
         }
 
-        //private void PlotCIELABColor(float a, float b)
-        //{
-        //    Bitmap labChart = new Bitmap(Properties.Resources);
-        //    Graphics g = Graphics.FromImage(labChart);
+        private void PlotCIELABColor(float a, float b)
+        {
+            Bitmap labChart = new Bitmap(ByteArrayToBitmap(Properties.Resource.CIELAB2));
+            Graphics g = Graphics.FromImage(labChart);
 
-        //    int centerX = labChart.Width / 2;
-        //    int centerY = labChart.Height / 2;
-        //    int scale = 3;
+            int centerX = labChart.Width / 2;
+            int centerY = labChart.Height / 2;
+            int scale = 3;
 
-        //    int posX = centerX + (int)(a * scale);
-        //    int posY = centerY - (int)(b * scale);
+            int posX = centerX + (int)(a * scale);
+            int posY = centerY - (int)(b * scale);
 
-        //    Pen pen = new Pen(Color.Red, 3);
-        //    g.DrawEllipse(pen, posX - 5, posY - 5, 10, 10);
+            Pen pen = new Pen(Color.Red, 3);
+            g.DrawEllipse(pen, posX - 5, posY - 5, 10, 10);
 
-        //    pictureBox1.Image = labChart;
-        //}
+            pictureBox1.Image = labChart;
+        }
 
         private Color LABtoRGB(int L, int A, int B)
         {
@@ -256,6 +255,14 @@ namespace Pixels
             bgrMat.Dispose();
 
             return rgbColor;
+        }
+
+        public static Bitmap ByteArrayToBitmap(byte[] byteArray)
+        {
+            using (MemoryStream ms = new MemoryStream(byteArray))
+            {
+                return new Bitmap(ms);
+            }
         }
 
         private void pb_Camera_Click(object sender, EventArgs e)

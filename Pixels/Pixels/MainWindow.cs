@@ -59,7 +59,7 @@ namespace Pixels
 
             if (route == "image")
             {
-                Image imageform = new Image();
+                ImageFilter imageform = new ImageFilter();
                 this.Hide();
                 imageform.Show();
             }

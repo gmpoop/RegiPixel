@@ -49,12 +49,10 @@ C:\develop\Pixels\Pixels\Pixels\obj\Debug\net8.0-windows\Pixels.csproj.Up2Date
 C:\develop\Pixels\Pixels\Pixels\bin\Debug\net8.0-windows\Emgu.CV.Platform.NetStandard.dll
 C:\develop\Pixels\Pixels\Pixels\bin\Debug\net8.0-windows\Emgu.CV.Platform.NetCore.dll
 C:\Users\drobi\source\repos\RegiPixels\Pixels\Pixels\obj\Debug\net8.0-windows\Pixels.csproj.AssemblyReference.cache
-C:\Users\drobi\source\repos\RegiPixels\Pixels\Pixels\obj\Debug\net8.0-windows\Pixels..resources
 C:\Users\drobi\source\repos\RegiPixels\Pixels\Pixels\obj\Debug\net8.0-windows\Pixels.Camera.resources
 C:\Users\drobi\source\repos\RegiPixels\Pixels\Pixels\obj\Debug\net8.0-windows\Pixels.Documentation.resources
-C:\Users\drobi\source\repos\RegiPixels\Pixels\Pixels\obj\Debug\net8.0-windows\Pixels.Image.resources
 C:\Users\drobi\source\repos\RegiPixels\Pixels\Pixels\obj\Debug\net8.0-windows\Pixels.WNDW.resources
-C:\Users\drobi\source\repos\RegiPixels\Pixels\Pixels\obj\Debug\net8.0-windows\Pixels.Properties.Resources.resources
+C:\Users\drobi\source\repos\RegiPixels\Pixels\Pixels\obj\Debug\net8.0-windows\Pixels.Properties.Resource.resources
 C:\Users\drobi\source\repos\RegiPixels\Pixels\Pixels\obj\Debug\net8.0-windows\Pixels.Video.resources
 C:\Users\drobi\source\repos\RegiPixels\Pixels\Pixels\obj\Debug\net8.0-windows\Pixels.csproj.GenerateResource.cache
 C:\Users\drobi\source\repos\RegiPixels\Pixels\Pixels\obj\Debug\net8.0-windows\Pixels.GeneratedMSBuildEditorConfig.editorconfig
@@ -118,3 +116,4 @@ C:\Users\drobi\source\repos\RegiPixels\Pixels\Pixels\obj\Debug\net8.0-windows\re
 C:\Users\drobi\source\repos\RegiPixels\Pixels\Pixels\obj\Debug\net8.0-windows\Pixels.pdb
 C:\Users\drobi\source\repos\RegiPixels\Pixels\Pixels\obj\Debug\net8.0-windows\Pixels.genruntimeconfig.cache
 C:\Users\drobi\source\repos\RegiPixels\Pixels\Pixels\obj\Debug\net8.0-windows\ref\Pixels.dll
+C:\Users\drobi\source\repos\RegiPixels\Pixels\Pixels\obj\Debug\net8.0-windows\Pixels.ImageFilter.resources

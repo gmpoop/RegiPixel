@@ -1,6 +1,6 @@
 ﻿namespace Pixels
 {
-    partial class Image
+    partial class ImageFilter
     {
         /// <summary>
         /// Required designer variable.
@@ -34,32 +34,43 @@
             lbl_Camera = new Label();
             lbl_Home = new Label();
             pnl_Documentation = new Panel();
-            button1 = new Button();
+            flp_Filters = new FlowLayoutPanel();
+            FilterValueTextBox = new TextBox();
+            Apply = new Button();
+            ValueName = new Label();
+            bt_UploadImage = new Button();
             panel5 = new Panel();
+            Hystogram_B = new PictureBox();
             panel4 = new Panel();
+            Hystogram_R = new PictureBox();
             panel3 = new Panel();
-            label2 = new Label();
-            ltv_history = new ListView();
+            Hystogram_G = new PictureBox();
             panel2 = new Panel();
-            panel1 = new Panel();
-            ltv_filters = new ListView();
-            pictureBox1 = new PictureBox();
+            Hystogram_RGB = new PictureBox();
+            pb_ImageDisplay = new PictureBox();
             label4 = new Label();
             label3 = new Label();
             label1 = new Label();
+            bt_Download = new Button();
             pnl_Documentation.SuspendLayout();
-            panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            panel5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)Hystogram_B).BeginInit();
+            panel4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)Hystogram_R).BeginInit();
+            panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)Hystogram_G).BeginInit();
+            panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)Hystogram_RGB).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pb_ImageDisplay).BeginInit();
             SuspendLayout();
             // 
             // lbl_Video
             // 
             lbl_Video.Cursor = Cursors.Hand;
             lbl_Video.Font = new Font("Segoe UI", 22.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            lbl_Video.Location = new Point(642, 905);
-            lbl_Video.Margin = new Padding(4, 0, 4, 0);
+            lbl_Video.Location = new Point(514, 724);
             lbl_Video.Name = "lbl_Video";
-            lbl_Video.Size = new Size(158, 66);
+            lbl_Video.Size = new Size(126, 53);
             lbl_Video.TabIndex = 12;
             lbl_Video.Text = "Video";
             lbl_Video.Click += lbl_Video_Click;
@@ -69,22 +80,19 @@
             lbl_Image.Cursor = Cursors.Hand;
             lbl_Image.Font = new Font("Segoe UI", 22.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lbl_Image.ForeColor = SystemColors.ButtonFace;
-            lbl_Image.Location = new Point(439, 905);
-            lbl_Image.Margin = new Padding(4, 0, 4, 0);
+            lbl_Image.Location = new Point(351, 724);
             lbl_Image.Name = "lbl_Image";
-            lbl_Image.Size = new Size(170, 66);
+            lbl_Image.Size = new Size(136, 53);
             lbl_Image.TabIndex = 11;
             lbl_Image.Text = "Image";
-            lbl_Image.Click += lbl_Image_Click;
             // 
             // lbl_documentation
             // 
             lbl_documentation.Cursor = Cursors.Hand;
             lbl_documentation.Font = new Font("Segoe UI", 22.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            lbl_documentation.Location = new Point(795, 905);
-            lbl_documentation.Margin = new Padding(4, 0, 4, 0);
+            lbl_documentation.Location = new Point(636, 724);
             lbl_documentation.Name = "lbl_documentation";
-            lbl_documentation.Size = new Size(358, 76);
+            lbl_documentation.Size = new Size(286, 61);
             lbl_documentation.TabIndex = 10;
             lbl_documentation.Text = "Documentation";
             lbl_documentation.Click += lbl_documentation_Click;
@@ -93,10 +101,9 @@
             // 
             lbl_Camera.Cursor = Cursors.Hand;
             lbl_Camera.Font = new Font("Segoe UI", 22.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            lbl_Camera.Location = new Point(240, 905);
-            lbl_Camera.Margin = new Padding(4, 0, 4, 0);
+            lbl_Camera.Location = new Point(192, 724);
             lbl_Camera.Name = "lbl_Camera";
-            lbl_Camera.Size = new Size(191, 66);
+            lbl_Camera.Size = new Size(153, 53);
             lbl_Camera.TabIndex = 9;
             lbl_Camera.Text = "Camera";
             lbl_Camera.Click += lbl_Camera_Click;
@@ -105,10 +112,9 @@
             // 
             lbl_Home.Cursor = Cursors.Hand;
             lbl_Home.Font = new Font("Segoe UI", 22.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            lbl_Home.Location = new Point(65, 905);
-            lbl_Home.Margin = new Padding(4, 0, 4, 0);
+            lbl_Home.Location = new Point(52, 724);
             lbl_Home.Name = "lbl_Home";
-            lbl_Home.Size = new Size(191, 66);
+            lbl_Home.Size = new Size(153, 53);
             lbl_Home.TabIndex = 8;
             lbl_Home.Text = "Home";
             lbl_Home.Click += Home_Click;
@@ -116,127 +122,173 @@
             // pnl_Documentation
             // 
             pnl_Documentation.BackColor = SystemColors.ActiveCaption;
-            pnl_Documentation.Controls.Add(button1);
+            pnl_Documentation.Controls.Add(bt_Download);
+            pnl_Documentation.Controls.Add(flp_Filters);
+            pnl_Documentation.Controls.Add(FilterValueTextBox);
+            pnl_Documentation.Controls.Add(Apply);
+            pnl_Documentation.Controls.Add(ValueName);
+            pnl_Documentation.Controls.Add(bt_UploadImage);
             pnl_Documentation.Controls.Add(panel5);
             pnl_Documentation.Controls.Add(panel4);
             pnl_Documentation.Controls.Add(panel3);
-            pnl_Documentation.Controls.Add(label2);
-            pnl_Documentation.Controls.Add(ltv_history);
             pnl_Documentation.Controls.Add(panel2);
-            pnl_Documentation.Controls.Add(panel1);
-            pnl_Documentation.Controls.Add(pictureBox1);
+            pnl_Documentation.Controls.Add(pb_ImageDisplay);
             pnl_Documentation.Controls.Add(label4);
             pnl_Documentation.Controls.Add(label3);
             pnl_Documentation.Controls.Add(label1);
-            pnl_Documentation.Location = new Point(44, 28);
-            pnl_Documentation.Margin = new Padding(4);
+            pnl_Documentation.Location = new Point(35, 22);
             pnl_Documentation.Name = "pnl_Documentation";
-            pnl_Documentation.Size = new Size(1475, 830);
+            pnl_Documentation.Size = new Size(1180, 664);
             pnl_Documentation.TabIndex = 7;
+            pnl_Documentation.Paint += pnl_Documentation_Paint;
             // 
-            // button1
+            // flp_Filters
             // 
-            button1.BackColor = SystemColors.ActiveBorder;
-            button1.FlatStyle = FlatStyle.Flat;
-            button1.Location = new Point(526, 484);
-            button1.Margin = new Padding(4, 4, 6, 6);
-            button1.Name = "button1";
-            button1.Size = new Size(118, 36);
-            button1.TabIndex = 10;
-            button1.Text = "Upload";
-            button1.UseVisualStyleBackColor = false;
+            flp_Filters.AutoScroll = true;
+            flp_Filters.Location = new Point(521, 184);
+            flp_Filters.Name = "flp_Filters";
+            flp_Filters.Size = new Size(640, 252);
+            flp_Filters.TabIndex = 46;
+            // 
+            // FilterValueTextBox
+            // 
+            FilterValueTextBox.BackColor = SystemColors.ActiveCaption;
+            FilterValueTextBox.BorderStyle = BorderStyle.None;
+            FilterValueTextBox.Font = new Font("Yu Gothic UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            FilterValueTextBox.ForeColor = SystemColors.ControlText;
+            FilterValueTextBox.Location = new Point(675, 99);
+            FilterValueTextBox.Margin = new Padding(3, 4, 3, 4);
+            FilterValueTextBox.Name = "FilterValueTextBox";
+            FilterValueTextBox.PlaceholderText = "000";
+            FilterValueTextBox.Size = new Size(150, 27);
+            FilterValueTextBox.TabIndex = 44;
+            FilterValueTextBox.TextAlign = HorizontalAlignment.Center;
+            // 
+            // Apply
+            // 
+            Apply.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            Apply.BackColor = SystemColors.ActiveCaption;
+            Apply.FlatAppearance.BorderSize = 0;
+            Apply.FlatStyle = FlatStyle.Popup;
+            Apply.Font = new Font("Yu Gothic UI Semibold", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            Apply.ForeColor = SystemColors.ControlText;
+            Apply.ImageAlign = ContentAlignment.MiddleRight;
+            Apply.Location = new Point(521, 140);
+            Apply.Margin = new Padding(3, 4, 3, 4);
+            Apply.Name = "Apply";
+            Apply.Size = new Size(304, 37);
+            Apply.TabIndex = 45;
+            Apply.Text = "Apply";
+            Apply.UseVisualStyleBackColor = false;
+            // 
+            // ValueName
+            // 
+            ValueName.AutoSize = true;
+            ValueName.Font = new Font("Yu Gothic UI Semibold", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            ValueName.ForeColor = SystemColors.ControlText;
+            ValueName.Location = new Point(533, 102);
+            ValueName.Name = "ValueName";
+            ValueName.Size = new Size(121, 25);
+            ValueName.TabIndex = 43;
+            ValueName.Text = "Value Name:";
+            ValueName.Click += ValueName_Click;
+            // 
+            // bt_UploadImage
+            // 
+            bt_UploadImage.BackColor = SystemColors.ActiveBorder;
+            bt_UploadImage.FlatStyle = FlatStyle.Flat;
+            bt_UploadImage.Location = new Point(421, 387);
+            bt_UploadImage.Margin = new Padding(3, 3, 5, 5);
+            bt_UploadImage.Name = "bt_UploadImage";
+            bt_UploadImage.Size = new Size(94, 29);
+            bt_UploadImage.TabIndex = 10;
+            bt_UploadImage.Text = "Upload";
+            bt_UploadImage.UseVisualStyleBackColor = false;
+            bt_UploadImage.Click += bt_UploadImage_Click;
             // 
             // panel5
             // 
-            panel5.Location = new Point(1114, 565);
-            panel5.Margin = new Padding(4);
+            panel5.Controls.Add(Hystogram_B);
+            panel5.Location = new Point(891, 452);
             panel5.Name = "panel5";
-            panel5.Size = new Size(341, 240);
+            panel5.Size = new Size(273, 192);
             panel5.TabIndex = 9;
+            // 
+            // Hystogram_B
+            // 
+            Hystogram_B.Location = new Point(0, 0);
+            Hystogram_B.Margin = new Padding(3, 4, 3, 4);
+            Hystogram_B.Name = "Hystogram_B";
+            Hystogram_B.Size = new Size(270, 192);
+            Hystogram_B.TabIndex = 38;
+            Hystogram_B.TabStop = false;
             // 
             // panel4
             // 
-            panel4.Location = new Point(751, 565);
-            panel4.Margin = new Padding(4);
+            panel4.Controls.Add(Hystogram_R);
+            panel4.Location = new Point(601, 452);
             panel4.Name = "panel4";
-            panel4.Size = new Size(341, 240);
+            panel4.Size = new Size(273, 192);
             panel4.TabIndex = 8;
+            // 
+            // Hystogram_R
+            // 
+            Hystogram_R.Location = new Point(0, 0);
+            Hystogram_R.Margin = new Padding(3, 4, 3, 4);
+            Hystogram_R.Name = "Hystogram_R";
+            Hystogram_R.Size = new Size(270, 192);
+            Hystogram_R.TabIndex = 36;
+            Hystogram_R.TabStop = false;
             // 
             // panel3
             // 
-            panel3.Location = new Point(388, 565);
-            panel3.Margin = new Padding(4);
+            panel3.Controls.Add(Hystogram_G);
+            panel3.Location = new Point(310, 452);
             panel3.Name = "panel3";
-            panel3.Size = new Size(341, 240);
+            panel3.Size = new Size(273, 192);
             panel3.TabIndex = 7;
             // 
-            // label2
+            // Hystogram_G
             // 
-            label2.AutoSize = true;
-            label2.Font = new Font("Segoe UI", 16F);
-            label2.Location = new Point(675, 28);
-            label2.Margin = new Padding(4, 0, 4, 0);
-            label2.Name = "label2";
-            label2.Size = new Size(121, 45);
-            label2.TabIndex = 8;
-            label2.Text = "History";
-            // 
-            // ltv_history
-            // 
-            ltv_history.BackColor = SystemColors.ActiveCaption;
-            ltv_history.Location = new Point(675, 78);
-            ltv_history.Margin = new Padding(4);
-            ltv_history.Name = "ltv_history";
-            ltv_history.Size = new Size(279, 398);
-            ltv_history.TabIndex = 7;
-            ltv_history.UseCompatibleStateImageBehavior = false;
+            Hystogram_G.Location = new Point(0, 0);
+            Hystogram_G.Margin = new Padding(3, 4, 3, 4);
+            Hystogram_G.Name = "Hystogram_G";
+            Hystogram_G.Size = new Size(273, 192);
+            Hystogram_G.TabIndex = 37;
+            Hystogram_G.TabStop = false;
             // 
             // panel2
             // 
-            panel2.Location = new Point(21, 565);
-            panel2.Margin = new Padding(4);
+            panel2.Controls.Add(Hystogram_RGB);
+            panel2.Location = new Point(17, 452);
             panel2.Name = "panel2";
-            panel2.Size = new Size(341, 240);
+            panel2.Size = new Size(273, 192);
             panel2.TabIndex = 6;
-            panel2.Paint += panel2_Paint;
             // 
-            // panel1
+            // Hystogram_RGB
             // 
-            panel1.Controls.Add(ltv_filters);
-            panel1.Location = new Point(1036, 78);
-            panel1.Margin = new Padding(4);
-            panel1.Name = "panel1";
-            panel1.Size = new Size(419, 399);
-            panel1.TabIndex = 5;
+            Hystogram_RGB.Location = new Point(0, 0);
+            Hystogram_RGB.Margin = new Padding(3, 4, 3, 4);
+            Hystogram_RGB.Name = "Hystogram_RGB";
+            Hystogram_RGB.Size = new Size(273, 192);
+            Hystogram_RGB.TabIndex = 35;
+            Hystogram_RGB.TabStop = false;
             // 
-            // ltv_filters
+            // pb_ImageDisplay
             // 
-            ltv_filters.BackColor = SystemColors.ActiveCaption;
-            ltv_filters.Location = new Point(16, 21);
-            ltv_filters.Margin = new Padding(4);
-            ltv_filters.Name = "ltv_filters";
-            ltv_filters.Size = new Size(383, 356);
-            ltv_filters.TabIndex = 8;
-            ltv_filters.UseCompatibleStateImageBehavior = false;
-            // 
-            // pictureBox1
-            // 
-            pictureBox1.Location = new Point(21, 78);
-            pictureBox1.Margin = new Padding(4);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(622, 399);
-            pictureBox1.TabIndex = 4;
-            pictureBox1.TabStop = false;
-            pictureBox1.Click += pictureBox1_Click;
+            pb_ImageDisplay.Location = new Point(17, 62);
+            pb_ImageDisplay.Name = "pb_ImageDisplay";
+            pb_ImageDisplay.Size = new Size(498, 274);
+            pb_ImageDisplay.TabIndex = 4;
+            pb_ImageDisplay.TabStop = false;
             // 
             // label4
             // 
             label4.AutoSize = true;
             label4.Font = new Font("Segoe UI", 16F);
-            label4.Location = new Point(21, 499);
-            label4.Margin = new Padding(4, 0, 4, 0);
+            label4.Location = new Point(17, 399);
             label4.Name = "label4";
-            label4.Size = new Size(169, 45);
+            label4.Size = new Size(141, 37);
             label4.TabIndex = 3;
             label4.Text = "Histogram";
             // 
@@ -244,10 +296,9 @@
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Segoe UI", 16F);
-            label3.Location = new Point(1036, 28);
-            label3.Margin = new Padding(4, 0, 4, 0);
+            label3.Location = new Point(1074, 135);
             label3.Name = "label3";
-            label3.Size = new Size(105, 45);
+            label3.Size = new Size(87, 37);
             label3.TabIndex = 2;
             label3.Text = "Filters";
             // 
@@ -255,33 +306,50 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 16F);
-            label1.Location = new Point(21, 28);
-            label1.Margin = new Padding(4, 0, 4, 0);
+            label1.Location = new Point(17, 22);
             label1.Name = "label1";
-            label1.Size = new Size(118, 45);
+            label1.Size = new Size(98, 37);
             label1.TabIndex = 0;
             label1.Text = "Image ";
             // 
-            // Image
+            // bt_Download
             // 
-            AutoScaleDimensions = new SizeF(10F, 25F);
+            bt_Download.BackColor = SystemColors.ActiveBorder;
+            bt_Download.FlatStyle = FlatStyle.Flat;
+            bt_Download.Location = new Point(310, 387);
+            bt_Download.Margin = new Padding(3, 3, 5, 5);
+            bt_Download.Name = "bt_Download";
+            bt_Download.Size = new Size(94, 29);
+            bt_Download.TabIndex = 47;
+            bt_Download.Text = "Download";
+            bt_Download.UseVisualStyleBackColor = false;
+            bt_Download.Click += bt_Download_Click;
+            // 
+            // ImageFilter
+            // 
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ActiveCaption;
-            ClientSize = new Size(1564, 1008);
+            ClientSize = new Size(1251, 806);
             Controls.Add(lbl_Video);
             Controls.Add(lbl_Image);
             Controls.Add(lbl_documentation);
             Controls.Add(lbl_Camera);
             Controls.Add(lbl_Home);
             Controls.Add(pnl_Documentation);
-            Margin = new Padding(4);
-            Name = "Image";
+            Name = "ImageFilter";
             Text = "Image";
-            Load += Image_Load;
             pnl_Documentation.ResumeLayout(false);
             pnl_Documentation.PerformLayout();
-            panel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            panel5.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)Hystogram_B).EndInit();
+            panel4.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)Hystogram_R).EndInit();
+            panel3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)Hystogram_G).EndInit();
+            panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)Hystogram_RGB).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pb_ImageDisplay).EndInit();
             ResumeLayout(false);
         }
 
@@ -295,16 +363,21 @@
         private Panel pnl_Documentation;
         private Label label4;
         private Label label3;
-        private Panel panel1;
-        private PictureBox pictureBox1;
-        private Panel panel2;
-        private Label label2;
-        private ListView ltv_history;
-        private ListView ltv_filters;
+        private PictureBox pb_ImageDisplay;
         private Label label1;
+        private Button bt_UploadImage;
         private Panel panel5;
         private Panel panel4;
         private Panel panel3;
-        private Button button1;
+        private Panel panel2;
+        private PictureBox Hystogram_B;
+        private PictureBox Hystogram_R;
+        private PictureBox Hystogram_G;
+        private PictureBox Hystogram_RGB;
+        private TextBox FilterValueTextBox;
+        private Button Apply;
+        private Label ValueName;
+        private FlowLayoutPanel flp_Filters;
+        private Button bt_Download;
     }
 }
